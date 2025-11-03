@@ -1,3 +1,22 @@
-# Default ignored files
-/shelf/
-/workspace.xml
+cd /e/Curatrack
+nano .gitignore
+# Android / MAD project ignore rules
+.gradle/
+.idea/
+build/
+app/build/
+local.properties
+*.iml
+.DS_Store
+.env
+
+# Android/Gradle
+.gradle/
+build/
+app/build/
+local.properties
+.idea/
+*.iml
+
+# Generated sources
+app/build/generated/
